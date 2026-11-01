@@ -11,3 +11,9 @@ fotos-original/
 PRODUCT.md
 DESIGN.md
 .impeccable/
+
+# Grafiken zum Versenden (nicht Teil der Website)
+export/
+
+# Editor-Einstellungen
+.idea/
