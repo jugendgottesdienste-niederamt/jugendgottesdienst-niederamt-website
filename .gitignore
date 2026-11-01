@@ -1,0 +1,13 @@
+# Interne Planung, nicht veroeffentlichen
+projektplan.md
+
+# Original-Fotos (gross, mit Metadaten)
+fotos-original/
+
+# Lokale Claude-Code-Skills
+.claude/
+
+# Design-Notizen (lokal)
+PRODUCT.md
+DESIGN.md
+.impeccable/
