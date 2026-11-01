@@ -1,0 +1,2 @@
+# Kalenderdateien brauchen CRLF-Zeilenenden (iCalendar-Standard)
+*.ics -text
