@@ -1,0 +1,33 @@
+# Hält die Kalenderdateien aktuell: jeden Montag früh werden die nächsten
+# 6 Termine fürs Abo neu berechnet. Geändert wird nur, wenn sich etwas verschoben hat.
+name: Kalender aktualisieren
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # Montag, 04:00 UTC
+  workflow_dispatch:       # zusätzlich von Hand im Tab «Actions» startbar
+
+permissions:
+  contents: write
+
+jobs:
+  kalender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Kalenderdateien erzeugen
+        run: node tools/kalender.js
+      - name: Änderungen speichern
+        run: |
+          git add -A kalender
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Kalender: nächste Termine aktualisiert"
+          git push

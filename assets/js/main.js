@@ -111,7 +111,7 @@
     // Abo: der Kalender holt neue Termine selbst nach
     const sub = el('[data-ics-all]');
     if (location.protocol.startsWith('http')) {
-      sub.href = `webcal://${location.host}${location.pathname.replace(/[^/]*$/, '')}kalender/alle-termine.ics`;
+      sub.href = `webcal://${location.host}${location.pathname.replace(/[^/]*$/, '')}kalender/abo.ics`;
       // Android: Abo über den Google-Kalender anbieten
       if (/android/i.test(navigator.userAgent)) sub.href = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(sub.href);
     }

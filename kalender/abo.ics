@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Jugendgottesdienste Niederamt//DE
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Jugendgottesdienste Niederamt
+X-WR-TIMEZONE:Europe/Zurich
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Zurich
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:jgd-20270131@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270131T190000
+DTEND;TZID=Europe/Zurich:20270131T203000
+SUMMARY:Jugendgottesdienst Niederamt
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jgd-20270228@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270228T190000
+DTEND;TZID=Europe/Zurich:20270228T203000
+SUMMARY:Jugendgottesdienst Niederamt
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jgd-20270321@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270321T190000
+DTEND;TZID=Europe/Zurich:20270321T203000
+SUMMARY:Jugendgottesdienst: Kreuzweg am Palmsonntag
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jgd-20270425@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270425T190000
+DTEND;TZID=Europe/Zurich:20270425T203000
+SUMMARY:Jugendgottesdienst Niederamt
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jgd-20270530@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270530T190000
+DTEND;TZID=Europe/Zurich:20270530T203000
+SUMMARY:Jugendgottesdienst Niederamt
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:jgd-20270627@jugendgottesdienste-niederamt.ch
+DTSTAMP:20261101T000000Z
+DTSTART;TZID=Europe/Zurich:20270627T190000
+DTEND;TZID=Europe/Zurich:20270627T203000
+SUMMARY:Jugendgottesdienst Niederamt
+LOCATION:Röm.-kath. Kirche Schönenwerd
+DESCRIPTION:Jugendgottesdienst in Schönenwerd\, danach gemütliches Beisammensein.
+URL:https://jugendgottesdienste-niederamt.ch
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Heute Abend ist Jugendgottesdienst
+END:VALARM
+END:VEVENT
+END:VCALENDAR
